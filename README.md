@@ -43,7 +43,7 @@ We would create a REST api that prints out the query. The url is `http://localho
 If we run the code, and then curl or use a browser to verify the result, we shall see the result `great`.
 
 ## Under the hood
-Many people might ask: How come we didn't specify the `dataid` and `group` that's used in the GUI? Well, that's because Spring Cloud is auto wiring the configuration to the application. The default rule are as follows:
-`Data id: spring.cloud.nacos.config.prefix`
-`Group: spring.cloud.nacos.config.group`
+Many people might ask: How come we didn't specify the `dataid` and `group` that's used in the GUI? Well, that's because Spring Cloud is auto wiring the configuration to the application. The default rule are as follows:   
+`Data id: spring.cloud.nacos.config.prefix`   
+`Group: spring.cloud.nacos.config.group`    
 In our case, the data id is `nacos-config-example.properties` and group is `DEFAULT_GROUP`. Mystery solved!
