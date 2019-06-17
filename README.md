@@ -26,3 +26,4 @@ Once Nacos server is running, we should be able to access its dashbord at:
 `http://localhost:8848/nacos/index.html`.       
 The login/password is `nacos/nacos`.   
 Once logging, let's click on the `+` sign on the right side of the config table. At this point, we want to add a config:
+![add](imgs/add config.png)
